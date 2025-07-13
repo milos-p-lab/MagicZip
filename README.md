@@ -7,6 +7,9 @@ It **does NOT** actually compress data in the traditional sense. Instead, it spl
 
 This trick makes the main file appear much smaller, but the full data can be restored by recombining the ADS back into the main file.
 
+> ✍️ **Author:** Miloš Perunović  
+> 🗓️ **Date:** 2025-07-13
+
 ---
 
 ## 💡 Why MagicZip?
