@@ -86,3 +86,10 @@ MagicZip is provided as-is, for educational and demonstration purposes only. It 
 This project is free to use, share, and modify.
 
 Enjoy the magic of NTFS ADS! 🎩✨
+
+
+<!--
+Related terms:
+zip, compression, NTFS, alternate data streams, ADS, PowerShell, file system tricks,
+educational project, joke project, data hiding, magiczip, magic zip
+-->
