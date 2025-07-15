@@ -1,5 +1,9 @@
 # 🎩 MagicZip
 
+[![PowerShell](https://img.shields.io/badge/powershell-5.1+-blue.svg)](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.2)
+
+## ℹ️ About
+
 MagicZip is a playful demonstration project of a *“magic”* compression technique using NTFS Alternate Data Streams (ADS).  
 It **does NOT** actually compress data in the traditional sense. Instead, it splits the file into two parts:
 - The first ~1% of the original file stays as the **main file** (visible and accessible normally).
@@ -86,10 +90,3 @@ MagicZip is provided as-is, for educational and demonstration purposes only. It 
 This project is free to use, share, and modify.
 
 Enjoy the magic of NTFS ADS! 🎩✨
-
-
-<!--
-Related terms:
-zip, compression, NTFS, alternate data streams, ADS, PowerShell, file system tricks,
-educational project, joke project, data hiding, magiczip, magic zip
--->
