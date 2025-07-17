@@ -6,13 +6,14 @@
 
 MagicZip is a playful demonstration project of a *“magic”* compression technique using NTFS Alternate Data Streams (ADS).  
 It **does NOT** actually compress data in the traditional sense. Instead, it splits the file into two parts:
+
 - The first ~1% of the original file stays as the **main file** (visible and accessible normally).
 - The remaining ~99% of the data is hidden inside an **Alternate Data Stream** attached to the same file.
 
 This trick makes the main file appear much smaller, but the full data can be restored by recombining the ADS back into the main file.
 
 > ✍️ **Author:** Miloš Perunović  
-> 🗓️ **Date:** 2025-07-13
+> 🗓️ **Date:** 2025-07-16
 
 ---
 
@@ -41,6 +42,7 @@ This trick makes the main file appear much smaller, but the full data can be res
 ```
 
 This will:
+
 - Shorten the main file to ~1% of its original size.
 - Store the remaining data in the hidden ADS stream named hidden.
 
@@ -51,6 +53,7 @@ This will:
 ```
 
 This will:
+
 - Read the main file and the hidden ADS.
 - Merge them back into a single file restoring the original content.
 - Remove the ADS stream.
@@ -72,6 +75,7 @@ This will:
 NTFS supports alternate data streams, allowing multiple data "streams" within a single file entry. This project leverages that by moving part of the file’s data into an ADS, effectively hiding it from normal file size views and tools.
 
 The compression script splits and stores the data:
+
 - Main file: first ~1% bytes
 - ADS (filename: hidden): remaining bytes
 
