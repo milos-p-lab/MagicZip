@@ -17,7 +17,7 @@ This trick makes the main file appear much smaller, but the full data can be res
 
 ---
 
-## 💡 Why MagicZip?
+## ❔ Why MagicZip?
 
 - To demonstrate how NTFS ADS works in practice.
 - To teach about file streams and common misunderstandings about “infinite compression”.
@@ -70,7 +70,7 @@ This will:
 
 ---
 
-## 📂 How it works
+## ⚙️ How it works
 
 NTFS supports alternate data streams, allowing multiple data "streams" within a single file entry. This project leverages that by moving part of the file’s data into an ADS, effectively hiding it from normal file size views and tools.
 
@@ -89,7 +89,7 @@ MagicZip is provided as-is, for educational and demonstration purposes only. It 
 
 ---
 
-## 📜 License
+## ⚖️ License
 
 This project is free to use, share, and modify.
 
